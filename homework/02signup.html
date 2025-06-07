@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>註冊表單</title>
+</head>
+<body>
+  <h2>註冊表單</h2>
+
+  <form action="/submit" method="post">
+    <label for="username">帳號：</label><br>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="email">電子郵件：</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">密碼：</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="confirm">確認密碼：</label><br>
+    <input type="password" id="confirm" name="confirm" required><br><br>
+
+    <label for="birthday">生日：</label><br>
+    <input type="date" id="birthday" name="birthday"><br><br>
+
+    <label for="gender">性別：</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">男</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">女</label><br><br>
+
+    <input type="submit" value="註冊">
+  </form>
+</body>
+</html>
